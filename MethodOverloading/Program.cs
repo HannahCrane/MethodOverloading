@@ -1,2 +1,8 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using MethodOverloading;
+
+
+
+var answer = Methods.Add(2, 2, true);
+Console.WriteLine(answer);
+
+
